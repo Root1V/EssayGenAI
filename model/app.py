@@ -167,10 +167,6 @@ def essay_gen(keywords):
     return {"title": title, "essay": response_text, "image": img_path}
 
 
-def prueba_documentacion_three():
-    print("prueba")
-
-
 if __name__ == "__main__":
     st.title("Generador de Ensayos")
     st.write("Ingrese las palabras clave que tendra el ensayo:")
