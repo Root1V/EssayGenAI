@@ -1,4 +1,11 @@
 repos:
+-   repo: local
+    hooks:
+    - id: generate-auto-readme
+      name: Generar Automaticamente README.md
+      entry: ./gen_readme.sh
+      language: script
+      types: [text]
 -   repo: https://github.com/psf/black
     rev: 24.8.0
     hooks:
@@ -8,10 +15,3 @@ repos:
     hooks:
     - id: end-of-file-fixer
     - id: trailing-whitespace
--   repo: local
-    hooks:
-    - id: generate-auto-readme
-      name: Generar Automaticamente README.md
-      entry: ./gen_readme.sh
-      language: script
-      types: [text]
