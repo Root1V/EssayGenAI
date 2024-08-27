@@ -1,6 +1,6 @@
 from openai import OpenAI
 from dotenv import load_dotenv
-from config import Config
+from .config import Config
 import streamlit as st
 from PIL import Image
 import requests as req
