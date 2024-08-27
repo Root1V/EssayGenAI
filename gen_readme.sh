@@ -35,4 +35,3 @@ else
 fi
 
 echo "README.md ha sido generado con éxito."
-exit 0
