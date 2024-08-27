@@ -167,7 +167,7 @@ def essay_gen(keywords):
     return {"title": title, "essay": response_text, "image": img_path}
 
 
-def prueba_documentacion():
+def prueba_documentacion_two():
     print("prueba")
 
 
