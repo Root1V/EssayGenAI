@@ -1,0 +1,8 @@
+{
+    "model": "gpt-4o-mini",
+    "model_embeddings": "text-embedding-3-large",
+    "model_image": "dall-e-3",
+    "temperature":0.9,
+    "max_tokens": 1000,
+    "size_image": "1024x1024"
+}
