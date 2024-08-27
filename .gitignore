@@ -20,3 +20,6 @@ __pycache__/
 
 # .gitignore
 docs/
+
+# ignorar el generador de documentacion
+gen_readme.sh
